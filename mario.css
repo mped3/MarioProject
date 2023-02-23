@@ -1,0 +1,58 @@
+body{
+    background-image: url("https://wallpapers.com/images/high/classic-super-mario-wallpaper-8k-ultra-hd-wallpaper-and-background-6w71s2i3g53zwku9.jpg");
+
+}
+@keyframes rotate{
+        0%{
+           transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+}
+@keyframes roll{
+    0%{
+       left:70em;
+    }
+    100%{
+       left: -7em;}
+}
+
+.ball{
+    margin-top: 25em;
+    background-image: url("https://img.favpng.com/16/25/20/new-super-mario-bros-wii-new-super-mario-bros-wii-super-mario-world-png-favpng-duS7bFAFC9gPXKLfqrTmY1jad.jpg");
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    position: relative;
+    animation: rotate 1s linear infinite, roll 4s linear infinite ;
+}
+.m{
+    height: 100px;
+    width: 100px;
+margin-bottom: 3em;
+}
+    /* .ball3{
+        background-color: #4c00ff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite ;
+margin-top: 1em;
+    }
+    .ball4{
+        background-color: #00ff2a;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite ;
+margin-top: 1em;
+    }
+    .ball5{
+        background-color: #ff0000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite ;
+margin-top: 1em;
+    } */
