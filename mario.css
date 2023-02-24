@@ -31,3 +31,19 @@ body{
     width: 100px;
     margin-top: 27.5%;
 }
+@keyframes double{
+    0%{
+       left:150em;
+    }
+    100%{
+       left: -20em;}
+}
+
+.shroom2{
+    margin-top: 24.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    position: relative;
+    animation: double 15s linear infinite ;
+}
