@@ -65,3 +65,4 @@ body{
     position: relative;
     animation: triple 30s linear infinite ;
 }
+/* need to find a constant speed for mushrooms; 12 mushrooms total; 3 at the end sped up to make game challenging  */
