@@ -15,7 +15,7 @@ body{
        left:70em;
     }
     100%{
-       left: -7em;}
+       left: -10em;}
 }
 
 .shroom{
@@ -33,7 +33,7 @@ body{
 }
 @keyframes double{
     0%{
-       left:150em;
+       left:200em;
     }
     100%{
        left: -20em;}
@@ -47,12 +47,12 @@ body{
     position: relative;
     animation: double 15s linear infinite ;
 }
-@keyframes double{
+@keyframes triple{
     0%{
-       left:150em;
+       left:300em;
     }
     100%{
-       left: -20em;}
+       left: -40em;}
 }
 
 .shroom3{
@@ -61,5 +61,5 @@ body{
     height: 40px;
     border-radius: 50%; 
     position: relative;
-    animation: double 30s linear infinite ;
+    animation: triple 30s linear infinite ;
 }
