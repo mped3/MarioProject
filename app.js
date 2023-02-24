@@ -1,3 +1,4 @@
+// sonic movement
 let sonic = document.querySelector('.sonic')
 let moveBy = 40;
 
@@ -18,3 +19,9 @@ window.addEventListener('keyup', (e) =>{
                 sonic.style.left = parseInt(sonic.style.left) + moveBy + 'px'; break
    }
     });
+// need a border for sonic so he doesn't move past game obstacles and ground
+// find a way to get buttons continous press forward to move continousl forward and sonic jump up to collect coins 
+// find a way to create a coin bounce out of blocks to gentrate points 
+// if mushroom hit game over, try again on click 
+// need to impliment player 2, maybe after 3 game overs 
+// you win if you collect 20 coins, player 2 gets a try if player 2 gets < 20 then you lose 
