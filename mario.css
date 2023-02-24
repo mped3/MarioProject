@@ -47,3 +47,19 @@ body{
     position: relative;
     animation: double 15s linear infinite ;
 }
+@keyframes double{
+    0%{
+       left:150em;
+    }
+    100%{
+       left: -20em;}
+}
+
+.shroom3{
+    margin-top: 24.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    position: relative;
+    animation: double 30s linear infinite ;
+}
