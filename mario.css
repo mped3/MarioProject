@@ -10,6 +10,8 @@ body{
             transform: rotate(360deg);
         }
 } */
+
+/* mushroom obstacles */
 @keyframes roll{
     0%{
        left:70em;
