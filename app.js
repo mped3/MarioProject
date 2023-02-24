@@ -9,10 +9,12 @@ sonic.style.left = 0;
 window.addEventListener('keyup', (e) =>{
    switch (e.key){
     case 'ArrowUp':
-        circle.style.left = parseInt(circle.style.left) - moveBy + 'px'; break
+        circle.style.top = parseInt(circle.style.top) - moveBy + 'px'; break
     case 'ArrowDown':
-        circle.style.left = parseInt(circle.style.left) - moveBy + 'px'; break
+        circle.style.top = parseInt(circle.style.top) + moveBy + 'px'; break
     case 'ArrowLeft':
             circle.style.left = parseInt(circle.style.left) - moveBy + 'px'; break
+    case 'ArrowRight':
+                circle.style.left = parseInt(circle.style.left) + moveBy + 'px'; break
    }
     });
